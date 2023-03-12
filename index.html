@@ -123,7 +123,7 @@
           <!-- End Countdown -->
 
           <div class="has-text-centered">
-            <a href="https://goo.gl/maps/6" class="button btn-header-cta" target="_blank">
+            <a href="#rsvp" class="button btn-header-cta" target="_blank">
               RSVP
             </a>
           </div>
@@ -171,11 +171,11 @@
             <br />
           </p>
           <div>
-            <div class="nama-lengkap" >
+            <div class="name-container" >
               Loh Li Wei
             </div>
             <div class="ampersand">&</div>
-            <div class="nama-lengkap">
+            <div class="name-container">
               Brenda
             </div>
           </div>
@@ -245,7 +245,7 @@
         <div class="container" data-aos="fade-up" data-aos-easing="linear">
           <div class="column is-12 regular-section">
             <h1 class="title has-text-centered section-title">Location</h1>
-            <p class="tempat is-larger has-text-centered">
+            <p class="location-container is-larger has-text-centered">
               <strong>Vineyard @ Hort Park</strong>
               <br>
               33 Hyderabad Road, #02-02 Hort Park, Singapore 119578
@@ -305,30 +305,50 @@
           </div>
         </div> -->
 
+        <div class="container" data-aos="fade-up" data-aos-easing="linear">
+          <div class="columns is-multiline">          
+            <div class="column is-12 prolog">
+              <h1 class="title has-text-centered section-title" >RSVP</h1>
+            </div>
+            <div class="column is-12 prolog has-text-centered">
+              <form name="rsvp" method="POST" data-netlify="true">
+                <p>
+                  <label class="form-label">Name<br>
+                    <input type="text" name="name" />
+                  </label>
+                </p>
+                <p>
+                  <label class="form-label">Contact number<br>
+                    <p>We'll be sending updates to this number</p>
+                    <input type="email" name="email" />
+                  </label>
+                </p>
+                <p>
+                  <label class="form-label">Attendance<br>
+                    <p>Please include yourself in the count</p>
+                    <select name="attendance">
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                    </select>
+                  </label>
+                </p>
+                <div class="has-text-centered">
+                  <p>
+                    <button class="button btn-form-cta" type="submit">Confirm</button>
+                  </p>
+                </div>
 
-
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>Your Name: <input type="text" name="name" /></label>
-          </p>
-          <p>
-            <label>Your Email: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label>Your Role: <select name="role[]" multiple>
-              <option value="leader">Leader</option>
-              <option value="follower">Follower</option>
-            </select></label>
-          </p>
-          <p>
-            <label>Message: <textarea name="message"></textarea></label>
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
-
-
+              </form>              
+            </div>
+          </div>
+        </div>
       </section>
       <!-- End RSVP Content -->
 
