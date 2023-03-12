@@ -88,40 +88,6 @@
               Singapore
             </h4>
           </div>
-          <!-- Start Countdown -->       
-          <div>
-            <ul id="countdown-timer" >
-              <li><span class="days">00</span><p class="days_text">Days</p></li>
-              <li class="separator">:</li>
-              <li><span class="hours">00</span><p class="hours_text">Hours</p></li>
-              <li class="separator">:</li>
-              <li><span class="minutes">00</span><p class="minutes_text">Minutes</p></li>
-              <li class="separator">:</li>
-              <li><span class="seconds">00</span><p class="seconds_text">Seconds</p></li>
-            </ul>
-            <div class="space">
-            </div>
-            <script type="text/javascript">
-              var now = new Date();
-              var day = now.getDate();
-              var month = now.getMonth() + 1;
-              var year = now.getFullYear() + 1;
-          
-              var nextyear = month + '/' + day + '/' + year + ' 07:07:07';
-              var eventDate = '07/09/2023 17:00:00';
-
-              $('#countdown-timer').countdown({
-                date: eventDate, // TODO Date format: 07/27/2017 17:00:00
-                offset: +7, // TODO Your Timezone Offset
-                day: 'Day',
-                days: 'Days'
-              }, function () {
-                alert('Done!');
-              });
-            </script>  
-          </div>
-          <!-- End Countdown -->
-
           <div class="has-text-centered">
             <a href="#rsvp" class="button btn-header-cta" target="_blank">
               RSVP
