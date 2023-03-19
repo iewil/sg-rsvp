@@ -45,7 +45,6 @@ html {
 .hero .title {
   font-family: 'Rouge Script', sans-serif;
   font-weight: 700;
-  transform: rotate(-2deg);
   font-size: 5rem;
   padding-bottom: 5px;
   color: whitesmoke;
@@ -270,12 +269,12 @@ html {
   text-transform: uppercase;
   font-size: 1.5rem;
   letter-spacing: 0px;
-  padding-bottom: 60px;
+  padding-bottom: 40px;
 }
 
 .name-container {
   font-family: 'Rouge Script', sans-serif;
-  color: #996E6D;
+  color: #71221d;
   font-size: 3.5rem;
   letter-spacing: 0px;
   padding-bottom: 6px;
@@ -285,7 +284,7 @@ html {
 .ampersand {
 font-size: 5rem;
 font-family: 'Rouge Script', sans-serif;
-color: #996E6D;
+color: #71221d;
 line-height: 5rem;
 display: inline-block;
 vertical-align: middle;
@@ -300,6 +299,13 @@ vertical-align: middle;
   font-family: 'Raleway', sans-serif;
 }
 
+.section-graphic {
+  height: 250px;
+  margin: auto;
+  display: block;
+}
+
+
 .date-number {
   font-size: 5rem;
   font-family: 'Raleway', sans-serif;
@@ -308,7 +314,6 @@ vertical-align: middle;
 }
 
 .location-container {
-  font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
   margin-bottom: 50px;
 }
