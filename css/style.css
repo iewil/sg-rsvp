@@ -610,7 +610,7 @@ body.preloader-site {
 }
 
 .text-input {
-   min-width: 70%;
+   min-width: 100%;
    padding: 10px; 
    margin: 10px 10px 30px 10px;
    border-radius: 5px;
