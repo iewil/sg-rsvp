@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-size: 18px;
+}
+
 html {
   font-family: 'Raleway', Tahoma, sans-serif;
   width: 100%;
@@ -301,10 +305,6 @@ color: #71221d;
 line-height: 5rem;
 display: inline-block;
 vertical-align: middle;
-}
-
-.bodytext {
-  font-size: 18px;
 }
 
 .subheader-1 {
